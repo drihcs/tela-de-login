@@ -88,7 +88,7 @@ input::placeholder {
     transition: var(--transition);
 }
 
-.forgot-password a hover {
+.forgot-password a:hover {
     color: var(--primary-color)
 }
 
@@ -131,5 +131,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+button.hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0)
 }
