@@ -88,7 +88,7 @@ input::placeholder {
     transition: var(--transition);
 }
 
-.forgot-password a houver {
+.forgot-password a hover {
     color: var(--primary-color)
 }
 
@@ -115,4 +115,21 @@ input::placeholder {
     margin-bottom: 0;
     font-size: 0.85rem;
     cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
